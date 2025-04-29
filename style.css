@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+html {
+    background-image: url("wall.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: purple;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: "Tagesschrift", system-ui;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+header p {
+    color: purple;
+    font-weight: bold;
+}
+
+header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+/* Body Styles */
+.bodyc {
+    margin: 5px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.bodyc h3 {
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    color: purple;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+
+/* Image Styles */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+}
+
+.footer {
+    background-color: rgba(42, 99, 134, 0.1);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px;
+    text-align: center;
+}
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display:inline-block;
+    margin: 5px auto;
+    box-shadow: 4px 4px;
+    margin: 3px;
+}
+
+.circles {
+    text-align: center;
+}
+
+.circle p {
+    font-size: 150%;
+    font-family: "Tagesschrift", system-ui;
+    color: purple;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+}
